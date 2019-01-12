@@ -28,15 +28,19 @@ I will create a reporting tool that prints out reports (in plain text) based on 
 
 ## How to start the work?
 
-1- on terminal/git bash ```bash cd vagrant
+- on terminal/git bash
+```bash cd vagrant
 vagrant up
 vagrant ssh
 cd /vagrant
 mkdir log-analysis-project
-cd log-analysis-project```
-2- Move	the	“newsdata.sql”	to project	folder	“log-analysis-project”
-3- on terminal/git bash ```bash psql -d news -f newsdata.sql ``` then connect	to database	using ```bash psql -d news``` and explore	the	Data.
-4- Create	a	Python	File	and	Output	Text	File.
+cd log-analysis-project 
+```
+- Move	the	“newsdata.sql”	to project	folder	“log-analysis-project”
+
+- on terminal/git bash ```bash psql -d news -f newsdata.sql ``` then connect	to database	using ```bash psql -d news``` and explore	the	Data.
+
+- Create	a	Python	File	and	Output	Text	File.
 
 ## How to run the project?
 - on terminal/git bash while vagrant is connected run ```bash python loganalysisdb.py```.
