@@ -78,6 +78,8 @@ if __name__ == '__main__':
     q1_answer()
     q2_answer()
     q3_answer()
+else:
+    print("Please try to import the program as module.")
 
 
 """Sources and references:
